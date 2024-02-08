@@ -1,0 +1,118 @@
+.container {
+    /* padding-top: 50px; */
+
+}
+.navbar{
+    background-color: rgb(201, 152, 89);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarBrand{
+    color:#FFF;
+    font-size: 25px;
+    text-decoration: none;
+}
+.navbarNav{
+    list-style: none;
+    display: flex;
+}
+.navItem{
+    margin-left: 20px;
+}
+.navLink{
+    color: aliceblue;
+    text-decoration: none;
+    font-size:1.5rem;
+}
+.content{
+    text-align: center;
+    margin-top: 50px;
+}
+.footer{
+    background-color: rgb(255, 255, 255);
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* styles.module.css */
+
+.infoPage {
+    text-align: center; /* Centraliza el contenido */
+  }
+  
+  .pageTitle {
+    font-size: 28px; /* Tamaño de fuente del título */
+    color: #4285f4; /* Cambia el color del título según tus preferencias */
+  }
+  
+  .imageContainer {
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    align-items: center; /* Centra las imágenes verticalmente */
+    margin-top: 20px; /* Ajusta el margen según sea necesario */
+  }
+  
+  .pageImage {
+    width: 200px; /* Ajusta el tamaño de la imagen según sea necesario */
+    margin: 10px; /* Ajusta el margen entre las imágenes */
+    /* Otros estilos para las imágenes si es necesario */
+  }
+  
+  .pageList {
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding: 0; /* Quita el relleno predeterminado de la lista */
+  }
+  
+  .pageList li {
+    font-size: 16px; /* Tamaño de fuente de los elementos de la lista */
+    color: #333; /* Cambia el color del texto según tus preferencias */
+  }
+  
+  .navbarBrand {
+    /* Estilos para el enlace Home si es necesario */
+  }
+
+  
+
+
+
+
+  /* styles.module.css */
+
+.testPage {
+    text-align: center; /* Centraliza el contenido de la página */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura de la página al 100% del viewport */
+  }
+  
+  .centerContent {
+    text-align: center;
+  }
+  
+  .pageTitle {
+    font-size: 28px; /* Tamaño de fuente del título */
+    color: #4285f4; /* Cambia el color del título según tus preferencias */
+  }
+  
+  .pageText {
+    font-size: 16px; /* Tamaño de fuente del texto */
+    color: #333; /* Cambia el color del texto según tus preferencias */
+  }
+  
+  .homeButton {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4285f4;
+  }
+  .h1{
+    font-size: 30px;
+  }
